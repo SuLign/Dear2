@@ -4,4 +4,4 @@ setInterval(()=>{
     var st = time - startTime;
     document.getElementById("timenow").innerHTML = 
      "我们相爱了" + parseInt(st / 1000 / 60 / 60 / 24).toString() + "天啦~~";
-},1000);
+},500);

@@ -16,12 +16,12 @@ body {
 }
 
 .timetag {
-    color: rgb(167, 187, 187);
+    color: rgb(63, 88, 88);
     margin-bottom: 10pt;
 }
 
 .box {
-    background-color: rgba(242, 246, 247, 0.52);
+    background-color: rgba(36, 39, 40, 0.52);
     padding: 20pt;
     margin: 0 auto;
     margin-bottom: 10pt;
@@ -30,12 +30,12 @@ body {
     align-content: center;
     color: rgb(24, 34, 34);
     box-shadow: inset 0 0 0 3000px rgba(255, 255, 255, 0.3);
-    filter: blur(0px);
     left: -25px;
     right: 0;
     top: -25px;
     bottom: 0;
     border-radius: 10px;
+    backdrop-filter: blur(20px);
 }
 
 .content {
@@ -43,33 +43,39 @@ body {
     text-indent: 2em;
 }
 
-ul {
-    background-color: rgba(90, 100, 108, 0.594);
+.guideBar  {
+    background-color: rgba(11, 11, 12, 0.594);
     list-style-type: none;
+    position: fixed;
+    min-width: 100%;
+    color: aqua;
     padding: 0px;
-    margin: -8px;
+    top: -16px;
+    left: 0;
+    backdrop-filter: blur(6px);
 }
 
-ul li {
+.guideBar li {
     display: inline;
-    color: antiquewhite;
+    color: rgb(255, 255, 255);
     margin: 0px;
-    padding: 3px;
-    background-color: rgba(0, 0, 0, 0.155);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+    font-size: medium;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-ul li:hover {
+.guideBar li:hover {
     display: inline;
     cursor: pointer;
     color: antiquewhite;
     margin: 0px;
     padding: 3px;
+    font-size: small;
     background-color: rgba(104, 99, 99, 0.792);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-ul li:active {
+.guideBar li:active {
     display: inline;
     cursor: pointer;
     color: antiquewhite;
