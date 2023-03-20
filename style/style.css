@@ -46,7 +46,6 @@ body {
 .guidebar {
     background-color: rgba(90, 100, 108, 0.594);
     list-style-type: none;
-    margin: -8px;
     padding: 0px;
     width: 100%;
 }
