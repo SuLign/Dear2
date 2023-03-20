@@ -1,11 +1,12 @@
-body{
+body {
     background-image: url("../resources/back.jpeg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    padding: 0px;
 }
 
-.title{
+.title {
     align-content: center;
     color: rgb(84, 100, 107);
     text-align: center;
@@ -14,29 +15,67 @@ body{
     margin: 30pt;
 }
 
-.timetag{
+.timetag {
     color: rgb(167, 187, 187);
     margin-bottom: 10pt;
 }
 
-.box{
+.box {
     background-color: rgba(242, 246, 247, 0.52);
     padding: 20pt;
     margin: 0 auto;
+    margin-bottom: 10pt;
     max-width: 60%;
     align-self: center;
     align-content: center;
     color: rgb(24, 34, 34);
-    box-shadow: inset 0 0 0 3000px rgba(255,255,255,0.3);
+    box-shadow: inset 0 0 0 3000px rgba(255, 255, 255, 0.3);
     filter: blur(0px);
-    left: -25px; 
+    left: -25px;
     right: 0;
-    top: -25px;  
+    top: -25px;
     bottom: 0;
     border-radius: 10px;
 }
 
-.content{
+.content {
     margin-bottom: 10px;
     text-indent: 2em;
+}
+
+.guidebar {
+    background-color: rgba(90, 100, 108, 0.594);
+    list-style-type: none;
+    margin: -8px;
+    padding: 0px;
+    width: 100%;
+}
+
+.guidebar li {
+    display: inline;
+    color: antiquewhite;
+    margin: 0px;
+    padding: 3px;
+    background-color: rgba(0, 0, 0, 0.155);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.guidebar li:hover {
+    display: inline;
+    cursor: pointer;
+    color: antiquewhite;
+    margin: 0px;
+    padding: 3px;
+    background-color: rgba(104, 99, 99, 0.155);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.guidebar li:active {
+    display: inline;
+    cursor: pointer;
+    color: antiquewhite;
+    margin: 0px;
+    padding: 3px;
+    background-color: rgba(70, 67, 67, 0.155);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
