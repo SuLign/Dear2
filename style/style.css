@@ -43,14 +43,14 @@ body {
     text-indent: 2em;
 }
 
-.guidebar {
+ul {
     background-color: rgba(90, 100, 108, 0.594);
     list-style-type: none;
     padding: 0px;
-    width: 100%;
+    margin: -8px;
 }
 
-.guidebar li {
+ul li {
     display: inline;
     color: antiquewhite;
     margin: 0px;
@@ -59,7 +59,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.guidebar li:hover {
+ul li:hover {
     display: inline;
     cursor: pointer;
     color: antiquewhite;
@@ -69,7 +69,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.guidebar li:active {
+ul li:active {
     display: inline;
     cursor: pointer;
     color: antiquewhite;
